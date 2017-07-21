@@ -1,6 +1,7 @@
 # Project BIKEBUDDY
 Location Based Bike Settings Tracker
 
-* Ruby version - 2.2.3
+* Rails Version 5.0.0.1
+* Ruby Version 2.2.3
 
 * ...
