@@ -8,13 +8,21 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <body class="scrollreveal">
+
+    <!-- header -->
     <%= render 'shared/header' %>
-    <div class="container">
-      <p class="notice"><%= notice %></p>
-      <p class="alert"><%= alert %></p>
-      <%= yield %>
+
+    <!-- body -->
+    <!-- Begin Boxed or Fullwidth Layout -->
+    <div id="bg-boxed">
+      <div class="boxed">
+        <%= yield %>
+      </div>
     </div>
+
+    <!-- footer -->
     <%= render 'shared/footer' %>
+
   </body>
 </html>

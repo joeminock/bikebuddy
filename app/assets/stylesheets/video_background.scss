@@ -27,12 +27,3 @@
 @media all and (max-width: 500px) {
 .vid-info .acronym { display: none; }
 }
-
-.overlay {
-    background: black;
-    opacity: 0.8;
-    position: absolute;
-    z-index: -50;
-    text-align: center;
-    margin: 0%;
-  }
